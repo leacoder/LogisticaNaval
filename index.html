@@ -1,0 +1,548 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>Pagina Promocion</title>
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		  <!-- start-smoth-scrolling-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+
+		<script type="text/javascript" src="js/easing.js"></script>
+		<link rel="stylesheet" href="css\font-awesome-4.2.0\css/font-awesome.min.css">
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1500);
+				});
+			});
+		</script>
+		 <!---- start-smoth-scrolling---->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		<!----//End-top-nav-script---->
+
+	</head>
+	<body>
+		<div id="top" class="bg">
+		<!----- start-header---->
+			<div id="home" class="header">
+					<div class="top-header">
+						<div class="container">
+						<div class="logo">
+							<a href="#"><img src="images/logotitulo.png" title="Tu Logo" /></a>
+						</div>
+						<!----start-top-nav---->
+						 <nav class="top-nav">
+							<ul class="top-nav">
+								<li><a href="#about" class="scroll">Sobre Nosotros</a></li>
+								<li><a href="#port" class="scroll">Galeria</a></li>
+								<li><a href="#wedo" class="scroll">Caracteristicas</a></li>
+								<li><a href="#contact" class="scroll">Contacto</a></li>
+							</ul>
+							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+						</nav>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!---- header-info ---->
+			<div class="header-info text-center">
+				<div class="container">
+					<h1><span> </span><label>Reparaciones</label><span> </span></h1>
+					<h1>Navales e Industriales</h1>
+					<p></p>
+					<a class="big-btn scroll" href="#about">Conocenos</a>
+					<label class="mouse-divice"> </label>
+				</div>
+			</div>
+			</div>
+			<div class="clearfix"> </div>
+			<!---- header-info ---->
+			<!--- about-us ---->
+			<div id="about" class="about">
+				<div class="container">
+					<div class="about-head text-center">
+						<h3>Sobre nosotros <span> Logistica Naval</span></h3>
+						<p>
+							Nuestra Empresa cuenta con más de <label>25 años de experiencia</label> dedicada a las <label>Reparaciones Navales e Industriales</label>.</br>
+							Para todos los rubros contamos con la habilitación correspondiente como <label>Taller Naval y Laboratorio de Ensayos eléctricos ante la P.N.A.</label>
+							Asimismo la empresa esta inscripta como proveedora en distintos entes Nacionales y Provinciales. 
+						</p>
+					</div>
+					<!--- about-grids ---->
+					<div class="about-grids">
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon1"> </span>
+								<h3>Mecánica <br /><label> </label></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon2"> </span>
+								<h3>Electromecánica <br /><label> </label></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon3"> </span>
+								<h3>Balanceo<br /><label> </label></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="about-grid text-center">
+								<span class="about-icon4"> </span>
+								<h3>Alineacion Laser <br /><label> </label></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="about-grids">
+						<div class="col-md-4">
+							<div class="about-grid-1 text-center">
+								<span class="about-icon1"> </span>
+								<h3>Laboratorio de<br /> ensayos eléctricos<br /><label> </label></h3>
+								<label> </label>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="about-grid-1 text-center">
+								<span class="about-icon2"> </span>
+								<h3> Calderia Liviana <br /><label> </label></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="about-grid-1 text-center">
+								<span class="about-icon3"> </span>
+								<h3>Tuberia <br /><label> </label></h3>
+								<p></p>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- about-grids ---->
+				</div>
+				<a class="about-down-icon down-arrow-to scroll" href="#expand"><span> </span></a>
+			</div>
+			<!--- about-us ---->
+			<!--- expand ---->
+			<div id="expand" class="expand">
+				<div class="container">
+					<div class="expand-info text-center">
+						<h2><span>Separador</span> de secciones </h2>
+						<a class="expand-btn scroll" href="#wedo">Enterate</a>
+					</div>
+					<span class="w-mouse"> </span>
+					<a class="e-down-arrow down-arrow-to scroll" href="#process"><span> </span></a>
+				</div>
+			</div>
+			<div id="wedo" class="wedo">
+				<div class="container">
+					<div class="wedo-head text-center">
+						<h3>Una descripcion <span>mas detallada</span></h3>
+					</div>
+					<!--- wedo-grids -->
+					<div class="wedo-grids">
+						<div class="col-md-6 wedo-left">
+							<h4><label> </label>Ventajas de tener un sitio web</h4>
+							<p>1. Alcance global de sus productos y servicios.</br>2. Ventaja competitiva al lado de sus semejantes.</br>3. Publicidad disponible las 24 horas, todos los días del año.</br>4. Menos Costos Operativos: Ahorro en gastos de publicidad, reducción de teléfono y personal, de modo que cualquier información que pudiera necesitar el cliente la podrá consultar en su página Web, esto le ahorra tiempo, dinero y reduce el número de llamadas telefónicas de su negocio, locales y de larga distancia. </p>
+							<!-- <a class="wedobtn" href="#">More details</a> -->
+						</div>
+						<div class="col-md-6 wedo-right">
+							<img src="images/divices.png" title="demo" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- wedo-grids ---->
+					<a class="w-down-arrow down-arrow-to scroll" href="#advertising"><span> </span></a>
+				</div>
+			</div>
+			<!--- we do ---->
+
+			<div id="advertising" class="advertising">
+				<div class="container">
+					<div class="advertising-grids">
+						<div class="col-md-6 advertising-left">
+							<img src="images/computadora.png"  title="advertising" />
+						</div>
+						<div class="col-md-6 advertising-right text-right">
+							<h4>Pagina web<label> </label></h4>
+							<p>Una página web, página electrónica o ciberpágina, un documento o información electrónica capaz de contener texto, sonido, vídeo, programas, enlaces, imágenes, y muchas otras cosas, adaptada para la llamada World Wide Web, y que puede ser accedida mediante un navegador. Esta información se encuentra generalmente en formato HTML o XHTML, y puede proporcionar navegación (acceso) a otras páginas web mediante enlaces de hipertexto.</p>
+							<!-- <a class="wedobtn" href="#">More details</a> -->
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<a class="ad-down-arrow down-arrow-to scroll" href="#marketing"><span> </span></a>
+				</div>
+			</div>
+			<!---//Advertising --->
+			<!--- marketing ---->
+			<div id="marketing" class="marketing">
+				<div class="container">
+					<div class="marketing-grids">
+						<div class="col-md-6 marketing-left text-left">
+							<h4><label> </label>Otro...</h4>
+							<p>Mas detalles ..................</p>
+							<!-- <a class="wedobtn" href="#">More details</a> -->
+						</div>
+						<div class="col-md-6 marketing-right">
+							<img src="images/margating-pic.png" title="marketing" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<a class="mr-down-arrow down-arrow-to scroll" href="#port"><span> </span></a>
+				</div>
+			</div>
+
+			<div id="port" class="portfolio-box">
+				<div class="container">
+					<div class="portfolio-head text-center">
+						<h4>Galeria</h4>
+					</div>
+	
+					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+						$(function () {
+							var filterList = {
+								init: function () {
+								
+									// MixItUp plugin
+									// http://mixitup.io
+									$('#portfoliolist').mixitup({
+										targetSelector: '.portfolio',
+										filterSelector: '.filter',
+										effects: ['fade'],
+										easing: 'snap',
+										// call the hover effect
+										onMixEnd: filterList.hoverEffect()
+									});				
+								
+								},
+								hoverEffect: function () {
+									// Simple parallax effect
+									$('#portfoliolist .portfolio').hover(
+										function () {
+											$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+										},
+										function () {
+											$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+										}		
+									);				
+								
+								}
+					
+							};
+							// Run the show!
+							filterList.init();
+						});	
+					</script>
+					<!-- End-portfolio-script-->
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon logo web">TODAS</span> /</li>
+						<li><span class="filter" data-filter="app">1 Cat.</span> /</li>
+						<li><span class="filter" data-filter="card">2 Cat.</span> /</li>
+						<li><span class="filter" data-filter="icon">3 Cat.</span> /</li>
+						<li><span class="filter" data-filter="app">4 Cat.</span></li>
+					</ul>
+					<div id="portfoliolist">
+					<div class="portfolio logo1 mix_all port-big-grid" data-cat="logo" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>		
+					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>				
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>			
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper">		
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+						     <img class="p-img" src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+						  	</div></a>
+		                </div>
+					</div>	
+					<div class="clearfix"> </div>	
+					<a class="load-ports scroll" href="#team">Nuestro Equipo</a>
+				</div>
+				
+			</div>
+         		<a class="port-down-arrow down-arrow-to scroll" href="#team"><span> </span></a>
+         		<span class="port-mouse"> </span>
+				</div>
+				
+			</div>
+			<!--- Portfolio -->
+			<div class="clearfix"> </div>
+			<!--- team -->
+			<div id="team" class="team">
+				<div class="container">
+					<div class="team-head text-center">
+						<h4>Nuestro<span>equipo</span> </h4>
+					</div>
+					<!--- team-members -->
+					<div class="team-members text-center">
+						<div class="col-md-4">
+							<div class="team-member">
+								<img src="images/t1.png" title="name" />
+								<h5><span>Matias </span>Ruiz</h5>
+								<label>Encargado</label>
+								<ul class="unstyled-list">
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="linked" href="#"><span> </span></a></li>
+									<div class="clearfix"> </div>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="team-member">
+								<img src="images/t2.png" title="name" />
+								<h5><span>Sergio </span>Gomez</h5>
+								<label>Cocinero</label>
+								<ul class="unstyled-list">
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="linked" href="#"><span> </span></a></li>
+									<div class="clearfix"> </div>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="team-member">
+								<img src="images/t3.png" title="name" />
+								<h5><span>Natalia </span>Gimenez</h5>
+								<label>Recepcionista</label>
+								<ul class="unstyled-list">
+									<li><a class="twitter" href="#"><span> </span></a></li>
+									<li><a class="facebook" href="#"><span> </span></a></li>
+									<li><a class="linked" href="#"><span> </span></a></li>
+									<div class="clearfix"> </div>
+								</ul>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!--- team-members --->
+				</div>
+			</div>
+			<!--- team --->
+			<div class="clearfix"> </div>
+			<!---- testmonials ---->
+							
+			<div id="contact" class="testmonials text-center">
+				<div class="container">
+					<div class="row mar-top40">
+					<div class="team-head text-center">
+						<h4>Hace tu <span>consulta</span> </h4>
+					</div>
+					<div class="col-md-6">
+						<div class="cform" id="contact-form">
+							<div id="sendmessage">
+								 Tu mensaje fue enviado. Gracias!
+							</div>
+							<form action="contact/contact.php" method="post" role="form" class="contactForm">
+							  <div class="form-group">
+								<label for="name">Nombre</label>
+								<input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" data-rule="maxlen:4" data-msg="Por favor, ingrese 4 caracteres como minimo" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Tu Email" data-rule="email" data-msg="Por favor, ingrese un email valido" />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="subject">Asunto</label>
+								<input type="text" class="form-control" name="subject" id="subject" placeholder="El asunto" data-rule="maxlen:4" data-msg="Por favor, ingrese 8 caracteres como minimo." />
+								<div class="validation"></div>
+							  </div>
+							  <div class="form-group">
+								<label for="message">Mensaje</label>
+								<textarea class="form-control" name="message" rows="5" data-rule="required" placeholder="Escriba su consulta" data-msg="Por favor, escriba su consulta"></textarea>
+								<div class="validation"></div>
+							  </div>
+							  
+							  <button type="submit" class="btn btn-theme">Enviar</button>
+							</form>
+						</div>
+				    </div>
+				    <div class="row">
+				    <div class="col-md-6  center-row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="align-center">
+									<i class="fa fa-map-marker fa-4x mar-bot20"></i>
+									<h2>Direccion</h2>
+									<p>Av. Mitre 806 Avellaneda</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="align-center">
+									<i class="fa fa-clock-o fa-4x"></i>
+									<h2>Horarios</h2>
+									<div class="row">
+											<p>Lunes a viernes 9:30 a 19 hs.</p>
+											<p>Sabados 10 a 13 hs.</p>
+									</div>
+								</div>
+							</div>
+					</div>
+
+					<div class="col-md-6 center-row">
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="align-center">
+									<i class="fa fa-envelope fa-4x mar-bot20"></i>
+									<h2 class="section-heading animated" data-animation="bounceInUp">Email</h2>
+									<p>tumail@tumail.com</p>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div class="align-center">
+									<i class="fa fa-phone-square fa-4x mar-bot20"></i>
+									<h2>Telefono</h2>
+									<div class="row">
+										<p>4263-9856</p>
+										<p>4263-5648</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+			</div>
+			</div>
+			<div class="clearfix"> 
+				
+			</div>
+			</div>
+			<!---- testmonials ---->
+			<!---- Address ---->
+			<div  class="address">
+				<div id="map"></div>
+			</div>
+			<!---- Address ---->
+			<!---- footer ---->
+			<div class="footer text-center">
+				<p class="copy-right">Pagina diseñada por <a href="http://www.lgdesign.com.ar/" target="_blank">LG Design</a></p>
+				
+				<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutCubic' });
+										
+									});
+								</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+			<!---- footer ---->
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+			<script src="js/validate.js"></script>
+				<script type="text/javascript">
+		            // When the window has finished loading create our google map below
+		            google.maps.event.addDomListener(window, 'load', init);
+		        
+		            function init() {
+		                // Basic options for a simple Google Map
+		                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+		                var myLatlng = new google.maps.LatLng(-34.662914, -58.364353);
+		                var mapOptions = {
+		                    // How zoomed in you want the map to start at (always required)
+		                    zoom: 17,
+		                    scrollwheel: false,
+
+		                    // The latitude and longitude to center the map (always required)
+		                    center: new google.maps.LatLng(-34.662914, -58.364353),
+
+
+
+		                    // How you would like to style the map. 
+		                    // This is where you would paste any style found on Snazzy Maps.
+		                    styles: [	{		featureType:"all",		elementType:"all",		stylers:[		{			invert_lightness:false		},		{			saturation:10		},		{			lightness:30		}, { zoomControl:false},		{			gamma:0.5		},		{			hue:"#FC635E"		}		]	}	]
+		                };
+
+		                // Get the HTML DOM element that will contain your map 
+		                // We are using a div with id="map" seen below in the <body>
+		                var mapElement = document.getElementById('map');
+
+		                // Create the Google Map using out element and options defined above
+		                var map = new google.maps.Map(mapElement, mapOptions);
+		                var marker = new google.maps.Marker({
+						    position: myLatlng,
+						    map: map,
+						    title:"Tu negocio"
+						});
+		            }
+		        </script>
+	</body>
+</html>
+
