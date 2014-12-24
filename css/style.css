@@ -676,6 +676,11 @@ a.about-down-icon span{
 	position:relative;
 	background-position-y: -212px;
 }
+#separador-sec {
+	margin: 0;
+	font-size: 1.8em;
+}
+
 .expand-info h2{
 	color: #FFF;
 	font-family: 'open_sansbold';
@@ -684,12 +689,12 @@ a.about-down-icon span{
 	margin: 0.3em 0 1em;
 }
 .expand-info h2 span{
-	color:#FC635E;
+	color:#94C9F9;
 }
 a.expand-btn{
 	color: #002c58;
 	font-size: 1.45em;
-	border: 2px solid #002c58;
+	border: 3px solid #002c58;
 	padding: 0.45em 2.6em;
 	display: inline-block;
 	transition: border-color 0.4s;
@@ -714,7 +719,7 @@ a.expand-btn:hover{
 	border-color: #FFF;
 }
 .expand-info{
-	padding: 6.5em 0 8em;
+	padding: 11.5em 0 3em;
 }
 span.w-mouse{
 	width: 120px;
@@ -722,7 +727,7 @@ span.w-mouse{
 	display: inline-block;
 	background: url(../images/wmouse.png) no-repeat 0px 0px;
 	position: absolute;
-	bottom: -10.5%;
+	bottom: -42.5%;
 	left: 57.3%;
 }
 a.e-down-arrow span {
