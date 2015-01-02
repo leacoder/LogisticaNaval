@@ -12,7 +12,8 @@
    		 <!-- Custom Theme files -->
    		  <!-- start-smoth-scrolling-->
 		<script type="text/javascript" src="js/move-top.js"></script>
-
+		<link rel="stylesheet" href="fancy/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancy/jquery.fancybox.pack.js"></script>
 		<script type="text/javascript" src="js/easing.js"></script>
 		<link rel="stylesheet" href="css\font-awesome-4.2.0\css/font-awesome.min.css">
 		<script type="text/javascript">
@@ -313,47 +314,47 @@ Ensayos de calentamiento.</p>
 						<li><span class="filter" data-filter="app">1 Cat.</span> /</li>
 						<li><span class="filter" data-filter="card">2 Cat.</span> /</li>
 						<li><span class="filter" data-filter="icon">3 Cat.</span> /</li>
-						<li><span class="filter" data-filter="app">4 Cat.</span></li>
+						<li><span class="filter" data-filter="logo">4 Cat.</span></li>
 					</ul>
 					<div id="portfoliolist">
-					<div class="portfolio logo1 mix_all port-big-grid" data-cat="logo" style="display: inline-block; opacity: 1;">
+					<div class="portfolio logo mix_all port-big-grid" data-cat="logo" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
-						     <img class="p-img" src="images/p2.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="galeria/bombas 3.jpg" class="b-link-stripe b-animate-go  thickbox fancybox">
+						     <img class="p-img" src="galeria/thumbnail/bombas 3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
 						  	</div></a>
 		                </div>
 					</div>				
 					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="images/p3.jpg" class="b-link-stripe b-animate-go  thickbox fancybox">
 						     <img class="p-img" src="images/p3.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
 						  	</div></a>
 		                </div>
 					</div>		
 					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="images/p4.jpg" class="b-link-stripe b-animate-go  thickbox fancybox">
 						     <img class="p-img" src="images/p4.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
 						  	</div></a>
 		                </div>
 					</div>				
 					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="images/p1.jpg" class="b-link-stripe b-animate-go  thickbox fancybox">
 						     <img class="p-img" src="images/p1.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
 						  	</div></a>
 		                </div>
 					</div>	
 					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="images/p5.jpg" class="b-link-stripe b-animate-go  thickbox fancybox">
 						     <img class="p-img" src="images/p5.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
 						  	</div></a>
 		                </div>
 					</div>			
 					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
 						<div class="portfolio-wrapper">		
-							<a data-toggle="modal" data-target=".bs-example-modal-md" href="#" class="b-link-stripe b-animate-go  thickbox">
+							<a data-toggle="modal" data-target=".bs-example-modal-md" href="images/p6.jpg" class="b-link-stripe b-animate-go  thickbox fancybox">
 						     <img class="p-img" src="images/p6.jpg" /><div class="b-wrapper"><h2 class="b-animate b-from-left    b-delay03 "><img src="images/link-ico.png" alt=""/></h2>
 						  	</div></a>
 		                </div>
@@ -482,7 +483,9 @@ Ensayos de calentamiento.</p>
 											easingType: 'linear' 
 								 		};
 										*/
-										
+										$(document).ready(function() {
+											$(".fancybox").fancybox();
+										});
 										$().UItoTop({ easingType: 'easeOutCubic' });
 										
 									});
