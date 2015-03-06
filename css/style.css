@@ -53,6 +53,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 /*--- regular-font ---*/
 /*---//importing-fonts -----*/
 html, body{
+	max-width: 100%;
   	font-family: 'open_sansregular';
     font-size: 100%;
   	 background: #FFf;
@@ -70,7 +71,9 @@ body a{
 /*===========================
   --- Contact ----
 =========================== */
-
+@-ms-viewport {
+  width: device-width;
+}
 .validation {
 	display:none;
 	margin: 0 0 20px;
@@ -303,7 +306,7 @@ a.socialIcon:hover, .socialHoverClass {
 	background: url(../images/header-bg.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	min-height: 760px;
-	background-position-y: -236px;
+background-position-y: -116px;
 }
 .header{
 }
@@ -585,7 +588,7 @@ label.mouse-divice{
 	color: #646464;
 	margin: 0;
 	font-size: 1.2em;
-	width: 107%;
+	width: 100%;
 	margin-top: 21px;
 	margin-left: auto;
 	margin-right: auto;
@@ -956,8 +959,11 @@ a.mr-down-arrow span {
 		overflow:hidden;
 		margin: 0 2% 2% 0;
 	}	
-	#portfoliolist .portfolio:nth-child(3),#portfoliolist .portfolio:nth-child(6){
+	#portfoliolist .portfolio:nth-child(3),#portfoliolist .portfolio:nth-child(6),#portfoliolist .portfolio:nth-child(9){
 		margin: 0 0% 2% 0;
+	}
+	#portfoliolist .portfolio:nth-child(2){
+		margin: 0 2% 2% 0;
 	}
 	.portfolio-wrapper {
 		overflow:hidden;
@@ -1206,7 +1212,7 @@ span.port-mouse{
 	display: inline-block;
 	background: url(../images/pmouse.png) no-repeat 0px 0px;
 	position: absolute;
-	bottom:4%;
+	bottom:2%;
 	left: 58%;
 }
 /*--- team ---*/
@@ -1349,7 +1355,7 @@ p.copy-right{
 	margin-top:1em;
 }
 p.copy-right a{
-color: #034179;
+color: #2B81CF;
 text-decoration: underline;
 font-weight: bolder;
 font-size: 21px;
@@ -1387,15 +1393,18 @@ p.copy-right a:hover{
 	}
 	label.mouse-divice {
 		height: 244px;
-		bottom: -33.5%;
-		left: 58.3%;
+		bottom: -25.5%;
+		left: 65.3%;
 	}	
+	.expand{
+		background-position-y: -89px;
+	}
 	a.down-arrow span {
 		bottom: -27%;
 	}
 	span.w-mouse {
-		bottom: -6.5%;
-		left: 58.3%;
+bottom: -46.5%;
+left: 54.3%;
 	}
 	span.port-mouse {
 		left: 59%;
@@ -1771,8 +1780,13 @@ p.copy-right a:hover{
 	.about {
 		padding: 0.7em 0 2em;
 	}
+	#separador-sec {
+	margin: 0;
+	font-size: 0.9em;
+	}
 	.expand {
 		padding: 1.5em 0 3em;
+		background-position-y: 0px;
 	}
 	.expand-info h2 {
 		font-size: 1.8em;
@@ -1926,10 +1940,10 @@ p.copy-right a:hover{
 		padding: 0 0 0em 0;
 	}
 	.testmonials {
-		padding: 2em 0 0em;
+padding: 2em 0 2em;
 	}
 	.address {
-		margin-top: 5em;
+		margin-top: 0em;
 	}
 }
 @media (max-width:320px){
